@@ -2,7 +2,7 @@ name: Deploy Chessican to GitHub Pages
 on:
   push:
     branches: [main]
-  workflow_dispatch:
+  workflow_dispatch: {}
   pull_request:
     branches: [main]
 permissions:
